@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93929d31-fc9b-45d2-8427-a89cb1048d99" name="Changes" comment="Add HomeTest with Assertions.assertEquals">
+    <list default="true" id="93929d31-fc9b-45d2-8427-a89cb1048d99" name="Changes" comment="Add TestEight with assertArrayEquals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
+  <component name="RunManager" selected="JUnit.FirstTest.testNine">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5_2" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,11 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testSeven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.testNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5_2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testSeven(java.lang.String,java.lang.String,int,java.lang.String)" />
+      <option name="METHOD_NAME" value="testNine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.testNine" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.testEight" />
         <item itemvalue="JUnit.HomeTest.testThree" />
         <item itemvalue="JUnit.HomeTest" />
-        <item itemvalue="JUnit.FirstTest.testSeven" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679927670513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add TestEight with assertArrayEquals">
+      <created>1679929273939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679929273939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add HomeTest with Assertions.assertEquals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HomeTest with Assertions.assertEquals" />
+    <MESSAGE value="Add TestEight with assertArrayEquals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TestEight with assertArrayEquals" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/junit5_2$FirstTest_testOne.ic" NAME="FirstTest.testOne Coverage Results" MODIFIED="1679590050737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
