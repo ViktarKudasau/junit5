@@ -83,6 +83,16 @@ public class FirstTest {
         System.out.println("test Seven started with value " + worker.toString());
     }
 
+    @Test
+    public void testEight() {
+
+        int []  array_A = {1,2,3,4,5,6,7,8,9,10};
+        int []  array_B = {1,2,3,4,5,6,7,8,9,10};
+        Assertions.assertArrayEquals(array_A, array_B, "Arrays NOT Equals!");
+        System.out.println("test Eight started. Array_A Equals array_B ");
+    }
+
+
     @AfterEach
     public void afterEach() {
         System.out.println("After each started");
